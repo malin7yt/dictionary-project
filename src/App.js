@@ -13,7 +13,12 @@ function App() {
         <Dictionary />
       </main>
       <footer className="text-center App-footer">
-<small>Coded by Malin Jensen</small>
+<small>
+  Coded by 
+  <a href="https://malinjensen.com/" 
+  target="_blank" 
+  className="MalinLink" 
+  rel="noreferrer">Malin Jensen</a>, Open sorce code on <a href="https://github.com/malin7yt/dictionary-project" target="_blank" className="GitHubLink" rel="noreferrer">GitHub</a></small>
       </footer>
       </div>
     </div>
