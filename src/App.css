@@ -1,3 +1,8 @@
+body {
+  background-color: #edebd8;
+}
+
+
 .App-logo {
   display: block;
   margin: 0 auto;
@@ -15,6 +20,10 @@
 
 .MalinLink, .GitHubLink {
   text-decoration: none;
-  color: purple;
+  color: #b2393e;
   font-weight: bold;
+}
+
+.MalinLink:hover, .GitHubLink:hover {
+  color: #737955;
 }
